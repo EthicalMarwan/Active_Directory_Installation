@@ -1,6 +1,6 @@
 # Active Directory Installation On A Windows Server
 
-## Ojective
+## Objective
 - Setting up an Active Directory domain controller using Windows Server 2022 on Oracle Virtualbox, creating a functional home lab environment for testing and learning enterprise-level directory services.
 
 ## Steps

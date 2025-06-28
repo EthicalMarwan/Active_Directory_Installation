@@ -49,12 +49,20 @@
 <div>
     <img src="https://github.com/user-attachments/assets/423d6a68-046e-4863-82f5-aceabf72b0ef" />
 </div>
+<div>
+    <img src="https://github.com/user-attachments/assets/441776a8-56a8-4e21-b71f-6557058f4bf4" />
+</div>
 
 ### 6. Verify AD installation
    - Make use of the DNS Manager and Active Directory Users and Computers management tools.
    - Check that AD domain is functioning and DNS is correctly configured.
    - Test by creating organizational units (OUs) and user accounts (as shown in this example).
-  
+<div>
+    <img src="https://github.com/user-attachments/assets/7a22f1ac-72de-4792-889e-58813d010e12" />
+</div>
+<div>
+    <img src="https://github.com/user-attachments/assets/df1bfe0c-e20d-4b84-8bf3-dc6773222af3" />
+</div>
 
 ## Summary
 - You’ll end up with a Windows Server 2022 VM operating as a Domain Controller in a new AD forest (EthicalMarwan.local for this example). You’ll learn to install server roles, configure DNS and static IP, and manage AD infrastructure, creating a sandbox environment perfect for experimenting with group policies, user management, and network security.

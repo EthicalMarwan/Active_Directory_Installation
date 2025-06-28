@@ -1,9 +1,9 @@
 # Active Directory Installation On A Windows Server
 
-##Ojective
+## Ojective
 - Setting up an Active Directory domain controller using Windows Server 2022 on Oracle Virtualbox, creating a functional home lab environment for testing and learning enterprise-level directory services.
 
-##Steps
+## Steps
 1. Prepare the environment
    - Your host system should have Oracle VirtualBox (or any Virtual Machine).
    - Create a fresh virtual machine (VM) for Windows Server
@@ -39,7 +39,7 @@
 - You’ll end up with a Windows Server 2022 VM operating as a Domain Controller in a new AD forest (EthicalMarwan.local for this example). You’ll learn to install server roles, configure DNS and static IP, and manage AD infrastructure, creating a sandbox environment perfect for experimenting with group policies, user management, and network security.
 
 
-##Skills Learned
+## Skills Learned
 - Installing and configuring Windows Server 2022 on a Virtual Machine
 - Setting up static IP and DNS for server reliability
 - Installing and configuring AD DS roles

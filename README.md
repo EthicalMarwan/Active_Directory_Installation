@@ -4,32 +4,35 @@
 - Setting up an Active Directory domain controller using Windows Server 2022 on Oracle Virtualbox, creating a functional home lab environment for testing and learning enterprise-level directory services.
 
 ## Steps
-1. Prepare the environment
+### 1. Prepare the environment
    - Your host system should have Oracle VirtualBox (or any Virtual Machine).
    - Create a fresh virtual machine (VM) for Windows Server
    - Verify the VM satisfies systems requirements (minimum of 2GB of RAM, 1 CPU core, and 40GB of Disk space allocation).
+<div>
+    <img src="https://github.com/user-attachments/assets/52b21a68-1c8b-4018-b07f-7ce32a623977" />
+</div>
 
-2. Install Windows Server 2022
+### 2. Install Windows Server 2022
    - Download the ISO from Microsoft's website, Deploy the ISO and proceed through the Windows Installation GUI.
    - Choose desktop experience unless you'd rather have the server core (Based on preference).
    - Set up administrative credentials and initial configuration.
   
-3. Configure networking
+### 3. Configure networking
    - Assign a static IP address to the server.
    - Set proper DNS settings (can point to itself post-AD install).
 
-4. Include AD DS (Active Directory Domain Services).
+### 4. Include AD DS (Active Directory Domain Services).
    - Launch Server Manager → Add Features and Roles.
    - Select “Active Directory Domain Services.”
    - Follow prompts; install required features and then promote the server.
   
-5. Promote to Domain Controller
+### 5. Promote to Domain Controller
    - Use the AD DS Configuration Wizard.
    - Make a new domain and forest (EthicalMarwan.local for this example).
    - Set a password for the Directory Services Restore Mode (DSRM).
    - Complete the wizard and reboot.
 
-6. Verify AD installation
+### 6. Verify AD installation
    - Make use of the DNS Manager and Active Directory Users and Computers management tools.
    - Check that AD domain is functioning and DNS is correctly configured.
    - Test by creating organizational units (OUs) and user accounts (as shown in this example).
